@@ -9,3 +9,22 @@ __pycache__/
 !.env.example
 .git_backup/
 .git_old_backup/
+# Large AI Models (Avoid GitHub 100MB limit)
+*.pth
+*.pt
+
+# Temporary Satellite Data
+*.nc
+
+# Temporary debug scripts
+*.cjs
+test_*.js
+
+*.pth
+*.pt
+*.h5
+*.onnx
+backend/BEST_ocean_model_1YR*.pth*.pth
+*.pt
+*.nc*
+*.npy
